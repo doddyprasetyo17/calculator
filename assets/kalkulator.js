@@ -102,5 +102,15 @@ function performCalculator() {
         result = parseInt(calculator.firstNumber) - parseInt(calculator.displayNumber)
     }
 
+    // OBJEK YANG AKAN DIKIRMKAN SEBAGAI ARGUMEN FUNGSI putHistory()  
+    const history = {
+        firstNumber: calculator.firstNumber,
+        secondNumber: calculator.displayNumber,
+        operator: calculator.operator,
+        result: result
+    }
+
+    putHistory(history);
     calculator.displayNumber = result;
+    renderHistory();
 }
