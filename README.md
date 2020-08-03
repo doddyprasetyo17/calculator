@@ -1,2 +1,2 @@
 # calculator
-Membuat Calculator dengan html dan Javascript
+Membuat Calculator Penjumlahan dan Pengurangan dengan html dan Javascript
